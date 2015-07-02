@@ -37,6 +37,11 @@ How to install the examples into MantisStudio
     check 'Use Web project name from within the archive file'
   - click Finish to import
 
+How to access the Cincom Mantis Git repository on GitHub via MantisStudio
+------------------------------------------------------------------------------
+
+COMING SOON.
+
 How to access the Cincom Mantis CVS repository on sourceforge via MantisStudio
 ------------------------------------------------------------------------------
 
