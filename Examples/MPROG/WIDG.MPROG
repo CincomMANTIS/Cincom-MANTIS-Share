@@ -1,0 +1,76 @@
+ENTRY WIDG
+	SCREEN outputs("WIDGETS")
+	Graph_Data1=3
+	Graph_Data2=9.9
+	Graph_Data3=5.2
+	Graph_Data4=2.5
+	GD1(1)=5
+	GD1(2)=12 
+	GD1(3)=7
+	GD1(4)=2
+	GD2(1)=5 
+	GD2(2)=12
+	GD2(3)=7
+	GD2(4)=2
+	Rest_Output=Rest_Data
+	converse outputs
+	WHILE outputs<>"CANCEL"
+		
+		IF outputs="hello" 
+			Button_Output="Hello"
+		END 
+		 
+		Checkbox1_Output="1st:"+Checkbox1(1)+" 2nd:"
+		'+Checkbox1(2)+" 3rd:"+Checkbox1(3)
+		Checkbox2_Output=Checkbox2
+		 
+		Color_Output=Color
+		   
+		File_Output=File_Input 
+		
+		Date_Output=Date_Picker 
+		
+		Image_Output=Input_Image
+		
+		Radio_Output=Radio_Group
+		
+		Slider_Output=Range_Slider
+		
+		Time_Output=Time_Picker 
+		 
+		Graph_Data1=3
+		Graph_Data2=9.9
+		Graph_Data3=5.2 
+		Graph_Data4=2.5
+		GD1(1)=5
+		GD1(2)=12
+		GD1(3)=7
+		GD1(4)=2
+		GD2(1)=5
+		GD2(2)=12
+		GD2(3)=7
+		GD2(4)=2
+		
+		Rest_Output=Rest_Data
+		
+		Spinner_Output=Range_Spinner
+		
+		Select_Output=Select_Dropdown
+		
+		TextA_Output=Text_Area(1)
+		
+		Video="WTF"
+		CONVERSE outputs
+	END
+	CHAIN "MASTER:TERMINATE"
+EXIT   
+|MANTIS_PROPERTY: COMMENT_CHAR=
+|MANTIS_PROPERTY: NAME=WIDG
+|MANTIS_PROPERTY: PASSWORD=
+|MANTIS_PROPERTY: FORMAT_CHAR=
+|MANTIS_PROPERTY: QUOTE_CHAR=
+|MANTIS_PROPERTY: DATETIMESTAMP=20130814120252
+|MANTIS_PROPERTY: DESCRIPTION=widget test process
+|MANTIS_PROPERTY: BOUND=
+|MANTIS_PROPERTY: SKN1=
+|MANTIS_PROPERTY: SAVED_BY=anthony.canterbury

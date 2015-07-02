@@ -1,0 +1,59 @@
+<SCREEN NAME="WIDGETS">
+<Audio COLS="1" HID="N" LEN="1" MASK="" OPT="src=media/Backed Vibes.mp3,auto=no,controls=yes,loop=no,type=mp3,ogg" PRO="N" ROWS="1" TYP="TEXT" WIDG="Audio"/>
+<Button COLS="1" HID="N" LEN="16" MASK="" OPT="value=Name,onclick=hello" PRO="N" ROWS="1" TYP="TEXT" WIDG="Button"/>
+<Button_Output COLS="1" HID="N" LEN="16" MASK="" OPT="auto=off,pattern=,req=no,value=,width=Length" PRO="Y" ROWS="1" TYP="TEXT" WIDG="Text_Line"/>
+<Canvas COLS="1" HID="N" LEN="10" MASK="" OPT="width=30px,height=30px" PRO="N" ROWS="1" TYP="TEXT" WIDG="Canvas"/>
+<Checkbox1 COLS="1" HID="N" LEN="10" MASK="" OPT="checked=no,value=Name" PRO="N" ROWS="3" TYP="TEXT" WIDG="Checkbox"/>
+<Checkbox1_Output COLS="1" HID="N" LEN="18" MASK="" OPT="auto=off,pattern=,req=no,value=,width=Length" PRO="Y" ROWS="1" TYP="TEXT" WIDG="Text_Line"/>
+<Checkbox2 COLS="1" HID="N" LEN="10" MASK="" OPT="checked=no,value=Name" PRO="N" ROWS="1" TYP="TEXT" WIDG="Checkbox"/>
+<Checkbox2_Output COLS="1" HID="N" LEN="10" MASK="" OPT="auto=on,pattern=,req=no,value=,width=Length" PRO="Y" ROWS="1" TYP="TEXT" WIDG="Text_Line"/>
+<Color COLS="1" HID="N" LEN="16" MASK="" OPT="value=#000000" PRO="N" ROWS="1" TYP="TEXT" WIDG="Color"/>
+<Color_Output COLS="1" HID="N" LEN="16" MASK="" OPT="auto=on,pattern=,req=no,value=,width=Length" PRO="Y" ROWS="1" TYP="TEXT" WIDG="Text_Line"/>
+<Date_Picker COLS="1" HID="N" LEN="16" MASK="" OPT="value=01/01/2000" PRO="N" ROWS="1" TYP="TEXT" WIDG="Date_Picker"/>
+<Date_Output COLS="1" HID="N" LEN="16" MASK="" OPT="auto=on,pattern=,req=no,value=,width=Length" PRO="Y" ROWS="1" TYP="TEXT" WIDG="Text_Line"/>
+<File_Input COLS="1" HID="N" LEN="50" MASK="" OPT="accept=image/jpg,image/gif,image/png" PRO="N" ROWS="1" TYP="TEXT" WIDG="File_Input"/>
+<File_Output COLS="1" HID="N" LEN="50" MASK="" OPT="src=,width=,height=,alt=" PRO="N" ROWS="1" TYP="TEXT" WIDG="Image"/>
+<Graph_Data1 COLS="1" HID="N" LEN="16" MASK="" OPT="type=numeric,graph=Graph,label=" PRO="Y" ROWS="1" TYP="NUMERIC" WIDG="Graph_Data"/>
+<Graph_Data2 COLS="1" HID="N" LEN="16" MASK="" OPT="type=numeric,graph=Graph,label=" PRO="Y" ROWS="1" TYP="NUMERIC" WIDG="Graph_Data"/>
+<Graph_Data3 COLS="1" HID="N" LEN="16" MASK="" OPT="type=numeric,graph=Graph,label=" PRO="Y" ROWS="1" TYP="NUMERIC" WIDG="Graph_Data"/>
+<Graph_Data4 COLS="1" HID="N" LEN="16" MASK="" OPT="type=numeric,graph=Graph,label=Xaxis:Yaxis" PRO="Y" ROWS="1" TYP="NUMERIC" WIDG="Graph_Data"/>
+<Graph COLS="1" HID="N" LEN="16" MASK="" OPT="type=Line,style=horizontal,width=400px,height=250px,title=Line Graph" PRO="N" ROWS="1" TYP="TEXT" WIDG="Graph"/>
+<Image COLS="1" HID="N" LEN="16" MASK="" OPT="src=images/Promotion.jpg,width=131px,height=119px,alt=MANTIS" PRO="N" ROWS="1" TYP="TEXT" WIDG="Image"/>
+<Input_Image COLS="1" HID="N" LEN="20" MASK="" OPT="src=images/WorldGrid.png,width=600px,height=400px,alt=coordinate map" PRO="N" ROWS="1" TYP="TEXT" WIDG="Input_Image"/>
+<Image_Output COLS="1" HID="N" LEN="20" MASK="" OPT="auto=on,pattern=,req=no,value=,width=Length" PRO="Y" ROWS="1" TYP="TEXT" WIDG="Text_Line"/>
+<Link COLS="1" HID="N" LEN="20" MASK="" OPT="url=http://www.mantis.cincom.com,target=_blank,text=Name" PRO="N" ROWS="1" TYP="TEXT" WIDG="Link"/>
+<Menu COLS="1" HID="N" LEN="10" MASK="" OPT="values=Parent1:sub1:sub1_1/sub1_2,sub2,sub3;Parent2;Parent3" PRO="N" ROWS="1" TYP="TEXT" WIDG="Menu"/>
+<BlankTest COLS="1" HID="N" LEN="16" MASK="" OPT="" PRO="N" ROWS="1" TYP="TEXT" WIDG="Audio"/>
+<table COLS="3" HID="N" LEN="10" MASK="" OPT="auto=on,pattern=,req=no,value=,width=Length" PRO="N" ROWS="3" TYP="TEXT" WIDG="Text_Line"/>
+<columns COLS="3" HID="N" LEN="5" MASK="" OPT="auto=on,pattern=,req=no,value=,width=Length" PRO="N" ROWS="1" TYP="TEXT" WIDG="Text_Line"/>
+<rows COLS="1" HID="N" LEN="8" MASK="" OPT="auto=on,pattern=,req=no,value=,width=Length" PRO="N" ROWS="2" TYP="TEXT" WIDG="Text_Line"/>
+<Password_T COLS="1" HID="N" LEN="5" MASK="" OPT="auto=on,pattern=,req=no,value=" PRO="N" ROWS="1" TYP="TEXT" WIDG="Password"/>
+<Radio_Group COLS="1" HID="N" LEN="16" MASK="" OPT="values=radio1,radio2" PRO="N" ROWS="1" TYP="TEXT" WIDG="Radio_Group"/>
+<Radio_Output COLS="1" HID="N" LEN="16" MASK="" OPT="auto=off,pattern=,req=no,value=,width=Length" PRO="Y" ROWS="1" TYP="TEXT" WIDG="Text_Line"/>
+<Range_Slider COLS="1" HID="N" LEN="16" MASK="" OPT="min=0,max=10,step=1,value=1" PRO="N" ROWS="1" TYP="TEXT" WIDG="Range_Slider"/>
+<Slider_Output COLS="1" HID="N" LEN="10" MASK="" OPT="auto=off,pattern=,req=no,value=,width=Length" PRO="Y" ROWS="1" TYP="TEXT" WIDG="Text_Line"/>
+<Range_Spinner COLS="1" HID="N" LEN="10" MASK="" OPT="min=0,max=10,step=1,value=1" PRO="N" ROWS="1" TYP="NUMERIC" WIDG="Range_Spinner"/>
+<Spinner_Output COLS="1" HID="N" LEN="10" MASK="" OPT="auto=off,pattern=,req=no,value=,width=Length" PRO="Y" ROWS="1" TYP="TEXT" WIDG="Text_Line"/>
+<Rest_Data COLS="1" HID="N" LEN="20" MASK="" OPT="restField=Rest_URL,location=test.here" PRO="N" ROWS="1" TYP="TEXT" WIDG="Rest_Data"/>
+<Rest_URL COLS="1" HID="N" LEN="20" MASK="" OPT="url=" PRO="N" ROWS="1" TYP="TEXT" WIDG="Rest_URL"/>
+<Rest_Output COLS="1" HID="N" LEN="20" MASK="" OPT="auto=off,pattern=,req=no,value=,width=Length" PRO="Y" ROWS="1" TYP="TEXT" WIDG="Text_Line"/>
+<Select_Dropdown COLS="1" HID="N" LEN="16" MASK="" OPT="size=3,multiple=no,values=hello,goodbye,for" PRO="N" ROWS="1" TYP="TEXT" WIDG="Select_Dropdown"/>
+<Select_Output COLS="1" HID="N" LEN="16" MASK="" OPT="auto=off,pattern=,req=no,value=,width=Length" PRO="Y" ROWS="1" TYP="TEXT" WIDG="Text_Line"/>
+<GD1 COLS="1" HID="N" LEN="4" MASK="" OPT="type=numeric,graph=Graph_Tab1,label=Name" PRO="Y" ROWS="4" TYP="NUMERIC" WIDG="Graph_Data"/>
+<Graph_Tab1 COLS="1" HID="N" LEN="16" MASK="" OPT="type=Bar,style=horizontal,width=400px,height=250px,title=Bar Graph" PRO="N" ROWS="1" TYP="TEXT" WIDG="Graph"/>
+<GD2 COLS="1" HID="N" LEN="16" MASK="" OPT="type=numeric,graph=Graph_Tab2,label=Name" PRO="Y" ROWS="4" TYP="NUMERIC" WIDG="Graph_Data"/>
+<Graph_Tab2 COLS="1" HID="N" LEN="16" MASK="" OPT="type=Pie,style=horizontal,width=400px,height=250px,title=Pie Graph" PRO="N" ROWS="1" TYP="TEXT" WIDG="Graph"/>
+<Tabs COLS="1" HID="N" LEN="16" MASK="" OPT="width=600px,height=400px,inter=yes,screens=Graph_Tab1,Graph_Tab2" PRO="N" ROWS="1" TYP="TEXT" WIDG="Tabs"/>
+<Text_Area COLS="1" HID="N" LEN="130" MASK="" OPT="req=no,columns=40,rows=5,default=" PRO="N" ROWS="2" TYP="TEXT" WIDG="Text_Area"/>
+<TextA_Output COLS="1" HID="N" LEN="135" MASK="" OPT="auto=off,pattern=,req=no,value=,width=Length" PRO="Y" ROWS="1" TYP="TEXT" WIDG="Text_Line"/>
+<Time_Picker COLS="1" HID="N" LEN="16" MASK="" OPT="value=09:00" PRO="N" ROWS="1" TYP="TEXT" WIDG="Time_Picker"/>
+<Time_Output COLS="1" HID="N" LEN="16" MASK="" OPT="auto=off,pattern=,req=no,value=,width=Length" PRO="Y" ROWS="1" TYP="TEXT" WIDG="Text_Line"/>
+<Video COLS="1" HID="N" LEN="10" MASK="auto=no" OPT="src=media/Mantis.mp4,auto=no,controls=yes,loop=no,width=600px,type=mp4,webm" PRO="N" ROWS="1" TYP="TEXT" WIDG="Video"/>
+<!--MANTIS_PROPERTY: NAME=WIDGETS-->
+<!--MANTIS_PROPERTY: SCREENPASSWORD=CASINO-->
+<!--MANTIS_PROPERTY: DATETIMESTAMP=20130828153157-->
+<!--MANTIS_PROPERTY: DESCRIPTION=widget test-->
+<!--MANTIS_PROPERTY: SERVER_SUPPORTS_FONTSIZE=TRUE-->
+<!--MANTIS_PROPERTY: FONTSIZE=13-->
+<!--MANTIS_PROPERTY: TUI=N-->
+</SCREEN> 
